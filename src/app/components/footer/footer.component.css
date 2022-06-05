@@ -1,6 +1,8 @@
 hr{
     border: solid 10px #0c1726;
-    margin-top: 50px;
+    width: 98.8% !important;
+    margin: 50px 0 0 0 !important;
+    padding: 0;
 }
 
 .page-footer h5{
@@ -18,4 +20,8 @@ hr{
 
 .logo-footer{
     width: 30%;
+}
+
+.copyright{
+    color: #0c1726;
 }

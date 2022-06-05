@@ -1,0 +1,54 @@
+.container{
+    width: 90%;
+}
+.head-title{
+    width: 70%;
+    margin-top: 50px;
+    padding: 10px 0 10px 0;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.head-title > p{
+    font-size: 1.3em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+#hr-aboutus{
+    width: 100% !important;
+    margin: 50px 0 50px 0 !important;
+}
+
+#history{
+    margin: auto 20px 0 0;
+    width: 40%;
+    text-align: left;
+
+}
+
+.history-image{
+    margin: 0 0 0 30px !important;
+}
+
+.img-product{
+    margin: 0;
+    border-radius: 5px;
+    width: 90%;
+    height: 500px;
+}
+
+.img-member{
+    border-radius: 5px;
+    width: 90%;
+    height: 250px;
+}
+
+img{
+    object-fit: cover;
+}

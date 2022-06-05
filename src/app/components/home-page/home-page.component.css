@@ -46,15 +46,6 @@
     background: #FDAAA4;
   }
 
-   /* hr */
-
-   hr{
-       border: 1px solid #EEEEEE;
-       width: 80%;
-       margin: 50px 10% 50px 10%;
-       box-shadow: none;
-   }
-
   /* TESTIMONIALS */
 
   .testimonials{
