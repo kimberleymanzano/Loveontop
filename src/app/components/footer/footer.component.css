@@ -1,0 +1,21 @@
+hr{
+    border: solid 10px #0c1726;
+    margin-top: 50px;
+}
+
+.page-footer h5{
+    color: #EC4E52 !important;
+    font-family: lust-text, serif;
+    font-weight: 900 !important;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.page-footer a, p, li{
+    color: #0c1726 !important;
+    margin-bottom: 20px;;
+}
+
+.logo-footer{
+    width: 30%;
+}

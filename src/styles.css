@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    font-family: lust-text, serif !important;
+    font-weight: 500;
+    font-style: normal;    
+}
+
+h1, h2{
+    font-family: lust-script-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+};
+
+h3{
+    font-family: lust-text, serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h4, h5, html{
+    font-family: lust-text, serif !important;
+    font-weight: 500;
+    font-style: normal;
+};
+
+p{
+    font-family: lust-text, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn, .btn-large{
+    font-family: lust-text, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EC4E52;
+  }

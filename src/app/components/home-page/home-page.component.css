@@ -1,0 +1,74 @@
+/* HERO  */
+.imagen{
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+  }
+
+  .btn, .btn-large{
+    margin-top: 15px;
+    background-color: #EC4E52;
+  }
+
+  /* TITLES */
+
+  .title{
+    display: flex;
+    justify-content: center;
+    font-family: lust-text, serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* BESTSELLERS */
+
+  .container{
+      width: 80%;
+  }
+
+  div > .row{
+    margin-bottom: 0;
+  }
+
+  .bestseller-btn{
+    background: #FDAAA4;
+  }
+
+   /* hr */
+
+   hr{
+       border: 1px solid #EEEEEE;
+       width: 80%;
+       margin: 50px 10% 50px 10%;
+       box-shadow: none;
+   }
+
+  /* TESTIMONIALS */
+
+  .testimonials{
+      padding-bottom: 20px;
+  }
+
+  i{
+      color: #FDAAA4 !important;
+  }
+
+    /* NEW PRODUCTS */
+    #center-card{
+        margin: 0;
+        padding: 0;
+    }
+
+  

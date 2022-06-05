@@ -1,0 +1,19 @@
+.row{
+    margin: 0;
+}
+
+#logowrapper{
+    height: 64px;
+}
+#logo{
+    width: 2em;
+}
+
+.banner{
+    margin: 0;
+   text-align: center;
+}
+
+.menu a{
+    color: #0c1726;
+}
