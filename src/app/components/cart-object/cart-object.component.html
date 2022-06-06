@@ -16,11 +16,11 @@
           <div class="quantity row">
               <div class="col l7 valign-wrapper">
                 <a class="plus-btn col l1" href="">
-                    <i class="material-icons">remove</i>
+                    <i class="material-icons" (click)="removefromcart()">remove</i>
                 </a>
                 <input type="text" class="center-align col l2" value="{{product.qty}}">
                 <a class="plus-btn col l1" href="">
-                    <i class="material-icons">add</i>
+                    <i class="material-icons" (click)="addtocart()" >add</i>
                 </a>
               </div>
 

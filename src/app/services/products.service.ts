@@ -46,6 +46,25 @@ export class ProductsService {
     console.log(this.cart_items)
   }
 
+  removefromcart(item: Product) {
+    item.qty=1;
+
+    if(localStorage.getItem('products')==null){
+      this.cart_items?.push(item);
+      localStorage.setItem('products',JSON.stringify(this.cart_items));  
+
+    }else if(this.isDuplicated(item.id)) {
+      this.cart_items = JSON.parse(localStorage.getItem('products') || '{}')
+      this.cart_items[this.isDuplicatedID(item.id)].qty--;
+      localStorage.setItem('products',JSON.stringify(this.cart_items)); 
+  
+    } else {
+      this.cart_items?.push(item);
+      localStorage.setItem('products',JSON.stringify(this.cart_items)); 
+    }
+    console.log(this.cart_items)
+  }
+
 
   isDuplicated(id:any){
     for(var i=0;i<this.cart_items.length-1;i++){
