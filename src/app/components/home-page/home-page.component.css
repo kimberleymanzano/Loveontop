@@ -10,6 +10,10 @@
     width: 100%;
   }
 
+  .main-title{
+    color: white !important;
+  }
+
   .centered {
     position: absolute;
     top: 50%;

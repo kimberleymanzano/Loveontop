@@ -8,6 +8,11 @@
 }
 
 .btn-small{
-    margin-top: 15px;
     background-color: #EC4E52;
-  }
+}
+
+.object-title{
+    font-family: lust-text, serif;
+    font-weight: 500;
+    font-style: normal;
+}
