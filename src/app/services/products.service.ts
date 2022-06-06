@@ -23,6 +23,10 @@ export class ProductsService {
     return this.http.get<Product[]>(this.API_URL);
   }
 
+  getCart(){
+    return this.cart_items = JSON.parse(localStorage.getItem('products') || '{}') ;
+  }
+
   addtocart(item: Product) {
     item.qty=1;
 
