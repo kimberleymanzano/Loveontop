@@ -1,5 +1,6 @@
-import* as M from 'materialize-css';
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import* as M from 'materialize-css';
+
 
 @Component({
   selector: 'app-contact-us',
@@ -12,6 +13,7 @@ export class ContactUsComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
   }
+  
   ngAfterViewInit(){
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.collapsible');

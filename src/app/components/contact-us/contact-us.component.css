@@ -1,3 +1,11 @@
+.container{
+    width: 90%;
+}
+
+.FAQ{
+    margin-right: 50px;
+}
+
 .Questions{
     margin-top: 70px;
     margin-bottom: 20px;
@@ -26,7 +34,7 @@
 .Still{
     margin-top: 1px;
     margin-bottom: 1px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .padInput{
