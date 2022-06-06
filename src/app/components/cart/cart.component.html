@@ -1,19 +1,19 @@
 <div class="container">
 
-    <div class="row valign-wrapper">
+    <div class="row">
 
         <div class="product-list col m6 s12">
             <h2>Cart</h2>
 
-            <div class="col 12">
+            <div class="col 10">
                 <app-cart-object *ngFor="let product of productservice.getCart()" [product]="product"></app-cart-object>
             </div>
 
         </div>
 
-        <div class="quote col m4">
+        <div class="quote col m4 offset-m2">
             <div class="contents">
-                <h5 class="">quote</h5>
+                <h5 class="">Quote</h5>
                 <hr>
                 <div class="Subtotal">
                     <h6 class="col l6 left-align">Subtotal</h6>
@@ -28,9 +28,10 @@
                     <h6 class="col l6 left-align">Total</h6>
                     <h6 class="col l6 right-align">0.0$</h6>
                 </div>
+                <a class="waves-effect hoverable btn-large col l12">Checkout</a>
             </div>
         </div>
-
+        
     </div>
     
 </div>

@@ -1,27 +1,32 @@
-<div class="card horizontal valign-wrapper">
+<div class="card horizontal row valign-wrapper">
 
-    <div class="card-image">
+    <div class="card-image col l4">
       <img src="../../../assets/products/{{product.img}}.jpg">
     </div>
 
-    <div class="card-stacked">
+    <div class="card-stacked col8">
       <div class="card-content">
         <small class="cat"> {{product.category}} </small>
-        <span class="card-title">{{product.title}}</span>
-        <p class="qty">{{product.qty}}</p>
-        <p>{{product.price}}</p>
+        <h6 class="object-title">{{product.title}}</h6>
+        <p>material: {{product.material}}</p>
+        <p>size: {{product.size}}</p>
+        <p>work: {{product.work}}</p>
       </div>
 
-      <div class="card-action center-align">
+      <div class="card-action center-align valign-wrapper">
           <div class="quantity row">
-              <div class="col l7 valign-wrapper">
-                <a class="plus-btn col l1" href="">
+              <div class="qty col l5 valign-wrapper">
+                <a class="plus-btn col l1">
                     <i class="material-icons" (click)="removefromcart()">remove</i>
                 </a>
                 <input type="text" class="center-align col l2" value="{{product.qty}}">
-                <a class="plus-btn col l1" href="">
+                <a class="plus-btn col l1">
                     <i class="material-icons" (click)="addtocart()" >add</i>
                 </a>
+              </div>
+
+              <div class="price l4">
+                  <h6 class="object-title">{{product.price}}</h6>
               </div>
 
           </div>

@@ -1,15 +1,43 @@
 .card-image{
+    margin: none;
     border-radius: 5px;
     box-shadow: none;
 }
 
+img{
+    border-radius: 5px;
+}
+
+.object-title{
+    font-family: lust-text, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.quantity{
+    margin: 0;
+    padding: 0;
+}
+
+.qty{
+    border: 1px solid #eee;
+    border-radius: 5px;;
+}
+
 .card{
     box-shadow: none !important;
-    border: none;
+    border: none !important;
+    border-top: none;
+    border-top-color: white;
 }
 
 hr{
     width: 98.8% !important;
     margin: 50px 0 0 0 !important;
     padding: 0;
+}
+
+i{
+    color: black;
+    margin: 0;
 }
