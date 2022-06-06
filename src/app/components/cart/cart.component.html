@@ -1,3 +1,34 @@
-<div class="center-align">
-    <h2>Cart</h2>
+<div class="container">
+
+    <div class="row">
+
+        <div class="product-list col m6 s12">
+            <h2>Cart</h2>
+
+            <div class="col 12">
+                <app-cart-object *ngFor="let product of productservice.getCart()" [product]="product"></app-cart-object>
+            </div>
+
+        </div>
+
+        <div class="quote col m4">
+            <h5>quote</h5>
+            <hr>
+            <div class="Subtotal">
+                <h6 class="col l6 left-align">Subtotal</h6>
+                <h6 class="col l6 right-align">0.0$</h6>
+            </div>
+            <div class="Shipping">
+                <h6 class="col l6 left-align">Shipping</h6>
+                <h6 class="col l6 right-align">0.0$</h6>
+            </div>
+            <hr>
+            <div class="Shipping">
+                <h6 class="col l6 left-align">Total</h6>
+                <h6 class="col l6 right-align">0.0$</h6>
+            </div>
+        </div>
+
+    </div>
+    
 </div>
