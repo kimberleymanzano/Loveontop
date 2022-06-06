@@ -1,14 +1,10 @@
-export interface Producto{
+export interface Product{
     id: string
     title: string
-    brand: string
-    category: string
     price: string
+    size: string
+    material: string
+    work: string
+    category: string
     img: string
-    sale: string
-    sale_price: string
-    service: string
-    recommended: string
-    popular: string
-
 }
