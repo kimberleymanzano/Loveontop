@@ -1,0 +1,54 @@
+.Questions{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px; 
+}
+
+.QuesTitle{
+    font-weight:bold;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.CorrectTitle{
+    margin-bottom: 18px;
+}
+
+.btn-small{
+    margin-top: 0px;
+    padding-top: 3px;
+    background-color:#F5A6A1;
+    box-shadow: none;
+}
+
+.Still{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 50px;
+}
+
+.padInput{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.padLabel{
+    padding-left: 10px;
+}
+
+.nameLabel{
+    margin-top: 0px;
+}
+
+.MessTitle{
+    padding-left: 10px;
+}
+
+.collapsible{
+    border-radius: 5px;
+    border-color: #E1E1E1;
+    box-shadow: none;
+}
