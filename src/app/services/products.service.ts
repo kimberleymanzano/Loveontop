@@ -17,7 +17,6 @@ export class ProductsService {
   constructor(private http:HttpClient) { }
 
   getProducts(){
-    //return this.http.get(this.API_URL);
     return this.http.get<Product[]>(this.API_URL);
   }
 }
