@@ -6,10 +6,13 @@
         </div>
         <div class="card-content">
 
-          <p>{{data.category}}</p>
+          <small> {{data.category}} </small>
           <span class="card-title">{{data.title}}</span>
           <p>{{data.price}}</p>
+        </div>
 
+        <div>
+          <a class="hoverable btn-small" (click)="addtocart()" >add to cart</a>
         </div>
       </div>
 </div>

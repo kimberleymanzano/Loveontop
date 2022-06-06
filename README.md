@@ -1,9 +1,9 @@
 # Loveontop
-Sofia Alvear - 31929
-Monica Figueroa - 30927
 Kimberley Manzano - 32578
-Brendan Salinas - 37072
+Sofia Alvear - 31929
 Nahir Zañudo - 36517
+Brendan Salinas - 37072
+Monica Figueroa - 30927
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.

@@ -28,7 +28,9 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/materialize-css/dist/css/materialize.min.css"
+              "node_modules/materialize-css/dist/css/materialize.min.css",
+              "node_modules/animate.css/animate.min.css",
+              "node_modules/animate.css/animate.compat.css"
             ],
             "scripts": [
               "node_modules/materialize-css/dist/js/materialize.min.js",
@@ -99,7 +101,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "node.modules/materialize-css/dist/css/materialize.min.css"
+              "node.modules/materialize-css/dist/css/materialize.min.css",
+              "node_modules/animate.css/animate.min.css"
             ],
             "scripts": []
           }

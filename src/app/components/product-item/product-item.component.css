@@ -1,3 +1,13 @@
 .container{
     width: 90%;
 }
+
+.card{
+    box-shadow: none;
+    border: none;
+}
+
+.btn-small{
+    margin-top: 15px;
+    background-color: #EC4E52;
+  }

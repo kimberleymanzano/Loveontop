@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
+import { ProductsService } from './services/products.service';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -12,6 +14,7 @@ import { StoreComponent } from './components/store/store.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
+import { CartObjectComponent } from './components/cart-object/cart-object.component';
 
 @NgModule({
   declarations: [
@@ -23,14 +26,15 @@ import { ProductItemComponent } from './components/product-item/product-item.com
     StoreComponent,
     ContactUsComponent,
     CartComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    CartObjectComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ProductItemComponent], /* creo que esto esta mal, deberia ser ProductServices */
   bootstrap: [AppComponent]
 })
 export class AppModule { }

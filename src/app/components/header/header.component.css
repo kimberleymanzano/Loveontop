@@ -19,3 +19,8 @@
 .menu a{
     color: #0c1726;
 }
+
+.nomargin{
+    margin: 0;
+    padding: 0;
+}
