@@ -11,8 +11,12 @@ h6, h5{
 
 hr{
     width: 98.8% !important;
-    margin: 50px 0 0 0 !important;
+    margin: 20px 0 0 0 !important;
     padding: 0;
+}
+
+#specialhr{
+    margin-block-start: 50px !important;
 }
 
 .quote{
@@ -20,3 +24,19 @@ hr{
     border-radius: 5px;;
     box-shadow: 5px;
 }
+
+.contents{
+    padding:10px 0 10px 0;
+}
+
+.Subtotal{
+   padding: 10px 0 10px 0;
+}
+
+.Shipping{
+    padding: 10px 0 40px 0;
+ }
+
+ .total{
+    padding: 10px 0 40px 0;
+ }
